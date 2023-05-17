@@ -2,6 +2,11 @@ import styles from "./style.module.css";
 import Projeto from "../../components/Projeto";
 import ProjetoInv from "../../components/ProjetoInv";
 
+import locadora from "../../assets/img/locadora.png";
+import loja from "../../assets/img/loja.png";
+import cnpj from "../../assets/img/cnpj.png";
+import notas from "../../assets/img/notas.png";
+
 function Portfolio() {
   return (
     <div id="portifolio" className={styles.container}>
@@ -13,14 +18,14 @@ function Portfolio() {
         </div>
 
         <Projeto
-          foto="../src/assets/img/locadora.png"
+          foto={locadora}
           titulo="Projeto Locaodora"
           texto="Projeto escolar realizado em grupo, utilizando Csharp para desenvolver um aplicativo desktop, cujo o intuito é gerenciar uma locadora de carros. 
             Neste projeto foi utilizado o conceito CRUD para realizarmos as interações com o banco de dados(MySql), o Csharp foi utilizado no desenvovilmento do layout da aplicação e também realizar as conexões com o banco de dados. "
         />
 
         <ProjetoInv
-          foto="../src/assets/img/loja.png"
+          foto={loja}
           titulo="Projeto Loja"
           texto='Projeto escolar realizado utilizando "PHP, MySql, HTML e CSS", o intuito deste projeto era realizar o gerenciamento de uma loja fictícia.
             Neste projeto o PHP foi utilizado para realizar a conexão e as interações(CRUD) com o banco de dados, o HTML e o CSS tinham como função estruturar e estilizar a aplicação web.
@@ -28,13 +33,13 @@ function Portfolio() {
             O banco de dados foi criado com MySql e possui três tabelas(Usuário, Produto e Contato), as informações destas tabelas são manipuladas através das páginas web desenvolvidas'
         />
         <Projeto
-          foto="../src/assets/img/cnpj.png"
+          foto={cnpj}
           titulo="Consumo de API CNPJ"
           texto='Projeto escolar onde foi utilizado "PHP e JavaScript" para desenvolver uma aplicação "web" capaz de consumir uma API(json) da "web" de CNPJs e exibir algumas informações sobre o cnpj inserido.
           Para deselvover o layout foi utilizado a biblioteca "Bootstrap" para facilitar o desenvolvimento da página juntamente do "HTML e CSS". '
         />
         <ProjetoInv
-          foto="../src/assets/img/notas.png"
+          foto={notas}
           titulo="Consumo de API Empresa"
           texto='Projeto escolar com foco no consumo de APIs, para tal consumo foi utilizado o "PHP". Para desenvolvimento do layout foi utilizado "HTML e CSS", para estruturar e estilizar a aplicação "web". 
             O arquivo do tipo "XML" utilizado para estruturar os dados das empresas foi desenvolvido por mim, para compreender esta forma de organizar os dados, desta forma tendo habilidades com diferentes formas de estrura de dados (xml e json).'

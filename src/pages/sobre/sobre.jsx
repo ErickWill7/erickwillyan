@@ -3,6 +3,7 @@ import LinguagemBox from "../../components/linguagem";
 import { FaReact, FaHtml5, FaCss3, FaPhp } from "react-icons/fa";
 import { TbBrandCSharp, TbBrandReactNative } from "react-icons/tb";
 import { SiMysql } from "react-icons/si";
+import profilePic from "../../assets/img/erickSobre.png";
 
 function Sobre() {
   return (
@@ -12,7 +13,7 @@ function Sobre() {
         <div className={styles.infoContainer}>
           <div className={styles.informacaoBox}>
             <div className={styles.foto}>
-              <img src="../src/assets/img/erickSobre.png" alt="Erick" />
+              <img src={profilePic} alt="Erick" />
             </div>
 
             <div className={styles.informacao}>

@@ -1,0 +1,34 @@
+.footer{
+    display: flex;
+    height: 40px;
+    width: 100%;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: center;
+    border-top: 1px solid #54d6bb;
+}
+
+.footer a, .footer p{
+    color: #54d6bb;
+    font-size: 15px;
+}
+
+.footer p{
+    padding-right: 5px;
+    margin-right: 10px;
+    border-right: 1px solid #54d6bb;
+}
+
+
+/* azul claro:#3D90D2
+ azul escuro: #15324A
+  cinza escuro: #3B5163 
+  cinza claro: #597B96
+  verde escuro: #929624
+  verde claro: #DFE37B  
+
+  /////////
+  azul legal: #54d6bb
+  azul escuro2: #0a192f
+  branco: #c7d2f1
+  cinza: #75809c */

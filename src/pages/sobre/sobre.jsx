@@ -12,7 +12,7 @@ function Sobre() {
         <div className={styles.infoContainer}>
           <div className={styles.informacaoBox}>
             <div className={styles.foto}>
-              <img src="./src/components/img/erickSobre.png" alt="Erick" />
+              <img src="../src/assets/img/erickSobre.png" alt="Erick" />
             </div>
 
             <div className={styles.informacao}>
